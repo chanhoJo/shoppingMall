@@ -1,0 +1,347 @@
+/*==========================title==========================*/
+
+    #header {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: 90px;
+        color: #fff;
+        text-align: center;
+        cursor: default;
+    }
+
+    #title{
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+        background-color: black;
+
+    }
+    #title_logo{
+        width: 300px;
+        height: 60px;
+        float: left;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+
+    #title_logo a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #title_right{
+        width: 900px;
+        margin-left: 300px;
+        color: white;
+
+    }
+
+    #user_nav {
+        width: 100%;
+        height:25px;
+        background-color:rgba(000, 0, 0, 0);
+
+    }
+
+    #user_nav ul{
+        float: right;
+
+    }
+
+    #user_nav ul li {
+        text-decoration: none;
+        list-style-type: none;
+        width: 80px;
+        margin-right: 5px;
+        float:left;
+        color: white;
+    }
+
+    #user_nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #user_nav ul li a:hover{
+        /*height: 55px;*/
+        font-weight: bolder;
+    }
+
+
+    #menu_nav {
+
+        width: 100%;
+        height:40px;
+        background-color:rgba(000, 0, 0, 0);
+        color: white;
+        font-size: 20px;
+    }
+
+    #menu_nav ul li {
+        text-decoration: none;
+        list-style-type: none;
+        width: 100px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    #menu_nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .inner{
+        padding-top: 200px;
+    }
+
+    #menu_nav ul li a:hover{
+        /*height: 55px;*/
+        font-weight: bolder;
+    }
+
+/*=========================join==================================*/
+    #join_form {
+        margin: 10px 0px 0px 20px;
+    }
+
+    #join_button {
+        margin : 15px 0px 0px 5px;
+    }
+
+    #join_info {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.48);
+    }
+
+    .button_wrap {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+/*========================myPage=================================*/
+
+    .userInfo_wrapper {
+        width: 1200px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .userStatus_box {
+        float:left;
+        width:600px;
+        padding : 10px;
+        height: 100%;
+    }
+
+    .point_box {
+        float: left;
+        height: 100%;
+        padding: 10px;
+        text-align: left;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+
+    .point_title, .user_name {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding-bottom: 15px;
+    }
+
+    .userPhoto {
+        float:left;
+        height: 100%;
+        width: 70px;
+        padding: 10px;
+    }
+
+    .userStatus{
+        border-right: 1px solid #cccccc;
+    }
+
+    .row-2 {
+        width: 500px;
+        margin-left : 70px;
+        border-bottom : 1px solid #cccccc;
+        padding-bottom : 10px;
+    }
+
+    .notification {
+        padding-top : 5px;
+        font-size : 14px;
+    }
+
+    .userStatus_box a {
+        font-size: 12px;
+        text-decoration : underline;
+        color: black;
+    }
+
+    .my_menu {
+        height: 40px;
+        margin-left: -20px;
+    }
+
+    .menu_button {
+        cursor:pointer;
+        float:left;
+        display:block;
+        height: 30px;
+        width: 200px;
+        border:1px solid #d7d7d7;
+        text-align:center;
+        background:#fcfcfc;
+        color:#9b9b9b;
+        font-size:14px;
+        font-weight: bolder;
+
+    }
+
+    .menu_button a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .modify_form, .delete_wrap, .productAdd_form, .productImgAdd_form {
+        font-family: sans-serif;
+        font-size:14px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .mode_title {
+        font-family: sans-serif;
+        font-size:25px;
+        font-weight: bolder;
+    }
+
+    .mode_title_wrap {
+        padding-bottom: 10px;
+    }
+
+    .mode_process {
+        font-size:12px;
+        color: rgba(0, 0, 0, 0.48);
+    }
+
+
+/*=======================login===============================*/
+
+    #login_form {
+        margin-left: 20px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        font-size:12px;
+        font-weight: bolder;
+    }
+
+
+    .mode_title {
+        font-family: sans-serif;
+        font-size:25px;
+        font-weight: bolder;
+    }
+
+    .mode_title_wrap {
+        padding-bottom: 10px;
+    }
+
+    .mode_process {
+        font-size:12px;
+        color: rgba(0, 0, 0, 0.48);
+    }
+
+/*=============================================================*/
+    .bottom {
+       border-top: 1px #cccccc solid;
+       padding-top: 20px;
+    }
+
+    #bottom_info {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.48);
+    }
+
+    .bRow1 {
+        font-size: 18px;
+        color: black;
+        font-weight: bolder;
+    }
+
+    .bRow2 {
+        font-size: 16px;
+        color: black;
+        padding-bottom: 15px;
+    }
+
+    .fixed{
+        position: fixed;
+        background-color: black;
+        top: 0px;
+    }
+
+    #bottom_line {
+        width: 100%;
+        height: 35px;
+        background-color: black;
+    }
+
+    #bottom_logo {
+        width: 180px;
+        height: 35px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 100px;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+
+/*====================product upload======================*/
+    .productImgAdd_form {
+        margin-top: -10px;
+    }
+
+    .product_img_upload_wrap input {
+        margin-top: 10px;
+    }
+
+/*====================buy list======================*/
+    .buyList_wrap {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .buyList_table_wrap {
+        margin-left: 20px;
+        width: 1100px;
+    }
+
+    .buy_no, .buy_img, .buy_product, .buy_price, .buy_count, .buy_size, .buy_address, .buy_phone, .buy_memo, .buy_date {
+        height: 60px;
+        border: 1px #cccccc solid;
+    }
+
+    .buyList_table_wrap thead tr th {
+        height: 40px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .buyList_table_wrap tbody tr td {
+        height: 60px;
+        text-align: center;
+    }
+
+
+    .buy_img img{
+        width: 60px;
+        height: 50px;
+    }
